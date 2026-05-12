@@ -1,30 +1,28 @@
-from setuptools import setup, find_packages
+# Age and Gender Detection using Python
 
-with open('README.md', 'r', encoding='utf-8') as f:
-    long_description = f.read()
+## Project Overview
+This project implements a deep learning-based Age and Gender Detection system using Python. It leverages convolutional neural networks (CNN) to predict the age group and gender of individuals from facial images.
 
-setup(
-    name='age-gender-detection',
-    version='1.0.0',
-    description='Age and Gender Detection using Deep Learning',
-    long_description=long_description,
-    long_description_content_type='text/markdown',
-    author='Your Name',
-    author_email='your.email@example.com',
-    url='https://github.com/yourusername/age-gender-detection',
-    packages=find_packages(),
-    classifiers=[
-        'Development Status :: 4 - Beta',
-        'Intended Audience :: Developers',
-        'Intended Audience :: Science/Research',
-        'Topic :: Scientific/Engineering :: Artificial Intelligence',
-        'Topic :: Scientific/Engineering :: Image Recognition',
-        'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
-        'Programming Language :: Python :: 3.10',
-    ],
+**Domain:** Artificial Intelligence (AI)  
+**Duration:** 9 Weeks  
+**Technology Stack:** Python, TensorFlow, OpenCV, Deep Learning
+
+## Project Objectives
+- Develop a robust age and gender detection model using deep learning
+- Achieve high accuracy in real-time facial analysis
+- Create a user-friendly interface for predictions
+- Document the progress weekly
+- Minimize code plagiarism through original implementation
+
+## Key Features
+- Real-time age and gender detection from webcam
+- Batch image processing
+- Pre-trained model support and fine-tuning capability
+- REST API for integration
+- Comprehensive evaluation metrics
+- Weekly progress reports
+
+## Project Structure
     python_requires='>=3.8',
     install_requires=[
         'numpy>=1.21.0',
